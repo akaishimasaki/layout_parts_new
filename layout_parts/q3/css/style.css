@@ -25,11 +25,11 @@
   text-align: center;
 }
 
-tr:nth-child(odd) {
+.q3__table > tbody > tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tr:last-child {
+.q3__table > tbody > tr:last-child {
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
