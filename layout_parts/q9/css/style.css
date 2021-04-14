@@ -12,23 +12,22 @@
 
 }
 
-
-.q9__bubbles:before {
+.q9__bubbles:before,.q9__bubbles:after {
   content: "";
   position: absolute;
-  bottom: -38px;
   left: 30px;
   border: 20px solid transparent;
+}
+
+
+.q9__bubbles:before {
+  bottom: -38px;
   border-top-color: #FFF;
   z-index: 2;
 }
 
 .q9__bubbles:after {
-  content: "";
-  position: absolute;
   bottom: -45px;
-  left: 30px;
-  border: 20px solid transparent;
   border-top-color: #222;
   z-index: 1;
 }

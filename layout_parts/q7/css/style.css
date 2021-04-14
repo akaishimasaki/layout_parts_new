@@ -11,23 +11,13 @@
   margin-left: 0;
 }
 
-.q7__left {
+.q7__left,.q7__right {
   width: 225px;
   font-size: 16px;
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
 }
-
-.q7__right {
-  width: 225px;
-  font-size: 16px;
-  float: left;
-  margin-left: 50px;
-  box-sizing: border-box;
-}
-
-
 
 
 .table {
